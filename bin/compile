@@ -57,3 +57,6 @@ mkdir -p $1/.fonts
 ls $FONTS_DIR
 cp $FONTS_DIR/* $1/.fonts/
 fc-cache -f $1/.fonts
+
+echo "-----> Installing libpng16-dev"
+apt-get install libpng16-dev
